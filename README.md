@@ -4,14 +4,14 @@
 
 ## About
 
-This bot sends information about playing cards from the trading card game Flesh and Blood to different channels
+This bot sends information about cards from the trading card game Flesh and Blood to different channels
 
 ### Where does the data come from?
 The data of this bot is provided by https://fabdb.net.
 
 ## Messengers
 
-This code powers the bot [fabtcg_bot](t.me/fabtcg_bot) on Telegram. Feel free to check it out!
+This code powers the bot [fabtcg_bot](https://t.me/fabtcg_bot) on Telegram. Feel free to check it out!
 Right now only [Telegram](https://telegram.org) is supported, but I'd like to add more in the future.
 
 ## Installation
