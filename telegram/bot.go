@@ -28,11 +28,13 @@ const (
 )
 
 const (
-	responseStart = "Hi, %s! 👋 Check out " + CmdHelp + " for further details."
+	responseStart = "Hi, %s! 👋 Check out " + CmdHelp + " for further details. You can share card information in from everywhere by simply typing @fabtcg_bot followed by a card query in your chat window. Data is provided by https://fabdb.net."
 	responseStop  = "Alright, %s! I won't talk to you again 🙊. Check out " + CmdHelp + " for further details."
 	responseHelp  = `
 I'm a Flesh and Blood TCG Bot 🤖 on steroids for Telegram. I will send you card information directly into your telegram channels!
 You can find out more about me using ` + CmdAbout + `
+
+You can share card information in from everywhere by simply typing @fabtcg_bot followed by a card query in your chat window.
 	
 👇 Available commands:
 ` + CmdStart + ` - Say hello!
