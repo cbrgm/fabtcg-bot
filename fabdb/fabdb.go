@@ -17,7 +17,7 @@ func NewFabDBClient() *FabDBClient {
 }
 
 func (c *FabDBClient) ListCards(ctx context.Context, query string) ([]Card, error) {
-	resp, err := c.client.get(ctx, fmt.Sprintf("/cards?per_page=30&keywords=%s&page=1&use-case=browse", query))
+	resp, err := c.client.get(ctx, fmt.Sprintf("/cards?per_page=100&keywords=%s&page=1&use-case=browse", query))
 	if err != nil {
 		return nil, err
 	}
