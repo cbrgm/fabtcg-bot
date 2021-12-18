@@ -12,6 +12,4 @@
 *.out
 .idea
 /dist
-/cmd/fabtcg-bot/fabtcg-bot
-fabtcg-bot
 /vendor/
