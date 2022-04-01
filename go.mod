@@ -3,7 +3,7 @@ module github.com/cbrgm/fabtcg-bot
 go 1.17
 
 require (
-	github.com/alecthomas/kong v0.4.1
+	github.com/alecthomas/kong v0.5.0
 	github.com/go-kit/kit v0.12.0
 	github.com/oklog/run v1.1.0
 	github.com/prometheus/client_golang v1.12.1
